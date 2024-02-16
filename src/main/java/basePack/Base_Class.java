@@ -21,7 +21,7 @@ public static WebDriver driver;
 	}
 
 	public void Url(String siteName) {
-		//diver
+		//diver 
 		driver.get(siteName);
 	}
 
