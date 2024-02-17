@@ -22,7 +22,14 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+   
+    <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <filtering>true</filtering>
+            </testResource>
+ </testResources>
+ </build>
   <dependencies>
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 <!-- https://mvnrepository.com/artifact/org.testng/testng -->
