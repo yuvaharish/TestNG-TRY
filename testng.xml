@@ -7,10 +7,10 @@
 	</listeners>
   <test name="Test">
     <classes>
-    <!--  <class name="execuationpack.PriorityEx"/>-->
+    <class name="execuationpack.PriorityEx"/>
       <class name="execuationpack.Test1"/>
-   <!-- <class name="execuationpack.BrowserTest"/>
-      <class name="execuationpack.DependeciesManagement"/>-->
+   <class name="execuationpack.BrowserTest"/>
+      <class name="execuationpack.DependeciesManagement"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

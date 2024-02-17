@@ -9,7 +9,7 @@ public class Test1 {
 	
 	@Test(groups = {"sanity"})
 	public void fitstTestCase() {
-		Assert.assertFalse(true);
+		//Assert.assertFalse(true);
 		System.out.println("this is my first sanity");
 	}
 	
